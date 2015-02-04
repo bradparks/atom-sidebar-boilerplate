@@ -7,21 +7,6 @@
 .symbols-sidebar {
   width: 300px;
   height: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding: 5px 0px;
+  overflow: hidden;
   cursor: default;
-  > div {
-    padding: 5px 10px;
-    font-size: @font-size;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    &:hover {
-      color: @text-color-highlight;
-    }
-    &.selected {
-      background-color: @background-color-selected;
-    }
-  }
 }
