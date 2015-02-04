@@ -1,0 +1,16 @@
+{
+  "name": "sidebar",
+  "main": "./lib/index.js",
+  "version": "0.0.0",
+  "description": "Sidebar boilerplate.",
+  "activationCommands": {
+    "atom-workspace": "sidebar:toggle"
+  },
+  "repository": "https://github.com/yneves/atom-sidebar-boilerplate",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
